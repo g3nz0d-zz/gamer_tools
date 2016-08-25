@@ -52,6 +52,15 @@ while endprogram != "q":
       print()
       print("Type 'q' to Quit)"
       endprogram=input()
+   if number==5:
+      print("  /------\ )"
+      print(" /        \)"
+      print(" |   5   |)"
+      print(" |        |)"
+      print("  \------/ )"
+      print()
+      print("Type 'q' to Quit)"
+      endprogram=input()
   if number==6:
       print("  /------\ )"
       print(" /        \)"
