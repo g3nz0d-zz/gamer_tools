@@ -1,17 +1,31 @@
 #!/usr/bin/env python
-
+# This program is using Python 3 :/
 #This is my attempt to create a Dice Rolling program to use in absence of having the real thing
-# Print statement fixed from print(" )" to print(" ")
 
 import random                                   #Moved to the top of the program for aesthetics
 endprogram=0
-number=random.randint(1,6)
+
+
+
+'''def banner():
+  print("Welcome to eDice")                       #Changed indentation of print statements
+  print("Press the Enter Key to Roll the D6")
+  print("")
+'''
+def diceroll():
+  number=random.randint(1,6)
+
+
+#def main():  
+
+
+
 
 while endprogram != "q":
 
-print("Welcome to eDice")                       #Changed indentation of print statements
-print("Press the Enter Key to Roll the D6")
-input()
+  print("Welcome to eDice")                       #Changed indentation of print statements
+  print("Press the Enter Key to Roll the D6")
+  input()
 
   if number == 1:                               #Fixed indentation (syntax) error
       print("[----------]")
