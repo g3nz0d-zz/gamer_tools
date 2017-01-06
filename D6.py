@@ -10,27 +10,31 @@ endprogram=0
 '''def banner():
   print("Welcome to eDice")                       #Changed indentation of print statements
   print("Press the Enter Key to Roll the D6")
-  print("")
+  print("Press 'q' to quit the program")
 '''
 def diceroll():
-  number=random.randint(1,6)
+  num=random.randint(1,6)
+  print("[----------]")
+  print("[          ]")
+  print("[    %s    ]") %(num) 
+  print("[          ]")
+  print("[----------]")
+  runthis
 
 
-#def main():  
+def main():  
+  runthis= input("Would you like to roll the dice? ")
+  while runthis is 'Y' or 'y':
+    diecroll()
 
+if __name__ == "__main__":
+  main()
 
-
-
-while endprogram != "q":
-
-  print("Welcome to eDice")                       #Changed indentation of print statements
-  print("Press the Enter Key to Roll the D6")
-  input()
-
+'''
   if number == 1:                               #Fixed indentation (syntax) error
       print("[----------]")
       print("[          ]")
-      print("[    0     ]")
+      print("[     1    ]")
       print("[          ]")
       print("[----------]")
       print()
@@ -39,7 +43,7 @@ while endprogram != "q":
   if number==2:
        print("[----------]")
        print("[          ]")
-       print("[  0   0   ]")
+       print("[  2   2   ]")
        print("[          ]")
        print("[----------]")
        print()
@@ -47,42 +51,41 @@ while endprogram != "q":
        endprogram=input()
   if number==3:
        print("[----------]")
-       print("[  0       ]")
-       print("[     0    ]")
-       print("[        0 ]")
+       print("[  3       ]")
+       print("[     3    ]")
+       print("[        3 ]")
        print("[----------]")
        print()
        print("Type 'q' to Quit")
        endprogram=input()
   if number==4:
        print("[----------]")
-       print("[  0    0  ]")
+       print("[  4    4  ]")
        print("[          ]")
-       print("[  0    0  ]")
+       print("[  4    4  ]")
        print("[----------]")
        print()
        print("Type 'q' to Quit")
        endprogram=input()
   if number==5:
        print("[----------]")
-       print("[  0     0 ]")
-       print("[     0    ]")
-       print("[  0     0 ]")
+       print("[  5     5 ]")
+       print("[     5    ]")
+       print("[  5     5 ]")
        print("[----------]")
        print()
        print("Type 'q' to Quit")
        endprogram=input()
   if number==6:
        print("[----------]")
-       print("[  0    0  ]")
-       print("[  0    0  ]")
-       print("[  0    0  ]")
+       print("[  6    6  ]")
+       print("[  6    6  ]")
+       print("[  6    6  ]")
        print("[----------]")
        print()
        print("Type 'q' to Quit")
-       endprogram=input()
-      
-    
+       endprogram=input()   
+'''  
     
     
     
