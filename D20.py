@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 #This is a virtual d20 sided dice
 
 endprogram=0
