@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 import random
 roll = random.randint(0,20)
+response = rawinput("Do you wish to roll again, (Y)es or (N)o ?")
 
 def banner():
   print "Welcome to eDice"
   print "Press the Enter Key to Roll the D20"
 
-def rolld20():                                    #This is a virtual d20 sided dice
+def rolld20():                                    #Function for the dice.  
   print ""
   print "  /---------\  "
   print " /           \ "
@@ -21,5 +22,12 @@ def rolld20():                                    #This is a virtual d20 sided d
     print "POSSIBLE CRITICAL"
   if roll == 20:
     print "CRITICAL!"
+'''
+def main():                                       #
+  banner()
+  while response == "Y" or "y":
+    rolld20()
 
-rolld20()
+if __name__ == "__main__":
+  main()
+'''
