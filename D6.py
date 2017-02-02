@@ -14,7 +14,7 @@ def banner():
   print("")
 
 def diceroll():  
-  if num  = 1:                               #Fixed indentation (syntax) error
+  if num == "1":                               #Fixed indentation (syntax) error
     print("[----------]")
     print("[          ]")
     print("[     1    ]")
