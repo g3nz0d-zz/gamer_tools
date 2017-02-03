@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 import random
 roll = random.randint(0,20)
-response = rawinput("Do you wish to roll again, (Y)es or (N)o ?")
 
 def banner():
-  print "Welcome to eDice"
-  print "Press the Enter Key to Roll the D20"
+  print ""
+  print "----- Welcome to eDice -----"
+  print ""
 
 def rolld20():                                    #Function for the dice.  
   print ""
@@ -16,18 +16,17 @@ def rolld20():                                    #Function for the dice.
   print " |           | "
   print " \           / "
   print "  \---------/  "
+  print ""
   if roll == 0:
     print "OUCH!"
   if roll >= 17 and roll <= 19:
     print "POSSIBLE CRITICAL"
   if roll == 20:
     print "CRITICAL!"
-'''
-def main():                                       #
+
+def main():
   banner()
-  while response == "Y" or "y":
-    rolld20()
+  rolld20()
 
 if __name__ == "__main__":
   main()
-'''
