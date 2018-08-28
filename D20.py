@@ -20,9 +20,9 @@ def rolld20():                                    #Function for the dice.
   if roll == 0:
     print "OUCH!"
   if roll >= 17 and roll <= 19:
-    print "POSSIBLE CRITICAL"
+    print "POSSIBLE CRIT!"
   if roll == 20:
-    print "CRITICAL!"
+    print "!!!CRIT!!!"
 
 def main():
   banner()
